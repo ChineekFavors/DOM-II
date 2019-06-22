@@ -53,12 +53,8 @@ pic.addEventListener('dblclick', function(e){
 //[ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
 
 const nav = document.querySelector('.nav-link');
-nav.addEventListener('click', function(e){
-	//e.target.style.color = 'yellow';
-	e.target.style.display = 'none';
-});
 
-
+console.log('i work')
 
 
 
